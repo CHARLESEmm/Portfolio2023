@@ -39,10 +39,23 @@
 
 #bouton
 {
-    width: 75px;
+    width: 100ù;
     height: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
     padding: 5px;
-    border: 1px solid black;
+    background-color: #008CBA;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#bouton:hover
+{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 a
@@ -50,14 +63,22 @@ a
     text-decoration: none;
 }
 
-footer
-{
-  width: 100%;
-  margin-top: 3%;
-  height: 80px;
-  background-color: black;
-  
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0;
 }
 
+.containerfooter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.version {
+    text-align: right;
+}
 
 

@@ -134,15 +134,23 @@
 
   }
 
-  footer
-  {
-    width: 100%;
-    margin-top: 3%;
-    height: 200px;
-    background-color: black;
-    
-  }
-  
+  footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.containerfooter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.version {
+    text-align: right;
+}
 
 
 
