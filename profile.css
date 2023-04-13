@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10%;
+  
 }
 
 .profil {
@@ -86,13 +87,53 @@ footer {
 .nav
 {
     width: 90%;
-    height: 15px;
-    
+    height: 20px;
     justify-content: end;
     display: flex;
     margin-right: 5%;
     margin-top: 5%;
+    
    
+}
+
+
+.technologie
+{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.contenairTechnologie
+{
+    width: 500px;
+    height: 50px;
+    display: flex;
+   
+    
+}
+
+.rowtechnologie
+{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    gap: 10%;
+}
+
+.coltechnologie
+{
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+
+.coltechnologie img
+{
+    width: 30px;
+    height: 150;
+
 }
 
 

@@ -16,8 +16,42 @@ h1 {
     border-radius: 50%;
     line-height: 100px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0);
+    
+  }
+
+  h1:hover
+  {
+   border: 1px solid white;
   }
 /*section principale contient les*/
+
+.projetimage
+{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetimageDroit {
+    width: 90%;
+    height: 500px;
+    margin-top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .projetimageDroit img {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
+
 
 .contenair1
 {
