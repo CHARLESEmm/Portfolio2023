@@ -1,0 +1,191 @@
+/* Remettre les marges et les paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Bannière */
+  .banniere {
+    width: 100%;
+    height: 350px;
+    
+    background-image: url('assets/bookscover.png');
+    background-size: cover;
+  }
+  
+  
+  /* Zone de texte */
+  .ZoneText {
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+  }
+  
+  /* Paragraphe */
+  p {
+    margin-top: 2%;
+  }
+
+  .ZoneScreen
+  {
+    width: 100%;
+    height: 200px;
+
+  }
+
+  .ZoneTexte
+  {
+    width: 90%;
+    height: 100px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    
+   
+  }
+
+  .imageTable {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col {
+    flex-basis: 20%;
+    margin: 0 1%;
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+
+  .col img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+.technologie
+{
+    width: 100%;
+    margin-top: 7%;
+    height: 50px;
+    
+}
+
+.contenairTechnologie
+{
+    width: 500px;
+    height: 50px;
+    margin-left: 5%;
+    display: flex;
+   
+    
+
+}
+
+.rowtechnologie
+{
+    width: 500px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.coltechnologie
+{
+    width: 30px;
+    height: 35px;
+    
+}
+
+.coltechnologie img
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+  .autreProjets
+  {
+    width: 100%;
+    height: 120px;
+    margin-top: 5%;
+  }
+
+  #autreProjets img
+  {
+    width: 100px;
+    height: 130px;
+
+  }
+
+  footer
+  {
+    width: 100%;
+    margin-top: 3%;
+    height: 200px;
+    background-color: black;
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  /* Rendre la page responsive */
+  @media only screen and (max-width: 768px) {
+    /* Bannière */
+    .banniere {
+      height: 200px;
+    }
+  
+    /* Zone de texte */
+    .ZoneText {
+      width: 90%;
+      height: 150px;
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Bannière */
+    .banniere {
+      height: 150px;
+    }
+  
+    /* Zone de texte */
+    .ZoneText {
+      width: 90%;
+      height: 100px;
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+  
+    /* Paragraphe */
+    p {
+      font-size: 14px;
+    }
+  }
+  

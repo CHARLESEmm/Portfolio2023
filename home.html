@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="home.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide contenair1">
+            
+            <section class="cotegauche">
+                
+                <div class="logo">
+                    <div class="details" >
+                        <a href="profil.html">
+                        <h1>EC</h1>
+                         </a>
+
+                    </div>
+                    <div class="nom">
+                        <p> Emmanuel CHARLES, BTS SIO 2</p>
+                        
+                    </div>
+                    
+
+                    <div class="projetimage">
+                        <img src="media/My project-1 (2).png" alt="">
+                    </div>
+
+                </div>
+
+                
+    
+            </section>
+    
+            <!--partie projets-->
+            <section class="cotedroit">
+                <div class="filmtransparant">
+
+                </div>
+                <div class="navbar">
+                    <li>
+                        <a href="profil.html">Profile</a>
+                        <a href="EMMANUEL CHARLES2023.pdf">CV</a>
+                        <ul>Home</ul>
+                    </li>
+                </div>
+
+                <div class="projetimage">
+                    <img src="media/casque.png" alt="">
+                </div>
+                
+            </section>
+
+            
+
+          </div>
+          <div class="swiper-slide bloc2">slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+           
+            loop: true,
+
+           
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+</script>
+</body>
+</html>
