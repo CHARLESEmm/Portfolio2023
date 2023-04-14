@@ -1,0 +1,241 @@
+/* Remettre les marges et les paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Bannière */
+
+  .home 
+  {
+    margin-left: 5%;
+    margin-top: 1%;
+    
+  }
+
+  .home a 
+  {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+  }
+
+  .home a:hover
+  {
+    transition: 2s ease;
+    border-bottom: 1px solid rgba(11, 11, 11, 0.352);
+  }
+  .banniere {
+    width: 100%;
+    height: 350px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.137);
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /* Zone de texte */
+  .ZoneText {
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    
+  }
+  
+  a
+  {
+    text-decoration: none;
+  }
+  /* Paragraphe */
+  p {
+    margin-top: 2%;
+  }
+
+  .ZoneScreen
+  {
+    width: 100%;
+    height: 200px;
+
+  }
+
+  .ZoneTexte
+  {
+    width: 90%;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    
+   
+  }
+
+  .imageTable {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col {
+    flex-basis: 20%;
+    margin: 0 1%;
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+
+  .col img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+.titletechnologie
+{
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+
+.technologie
+{
+    width: 90%;
+    margin-top: 13%;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+
+   
+    
+}
+
+.contenairTechnologie
+{
+    width: 500px;
+    height: 50px;
+    margin-left: 5%;
+    display: flex;
+   
+    
+
+}
+
+.rowtechnologie
+{
+    width: 500px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.coltechnologie
+{
+    width: 30px;
+    height: 35px;
+    
+}
+
+.coltechnologie img
+{
+    width: 50px;
+    height: 50px;
+
+}
+
+#sql img
+{
+  width: 105px;
+}
+
+  .autreProjets
+  {
+    width: 100%;
+    height: 120px;
+    margin-top: 10%;
+  }
+
+  #autreProjets img
+  {
+    width: 100px;
+    height: 130px;
+
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-top: 5%;
+}
+
+.containerfooter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.version {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+  /* Rendre la page responsive */
+  @media only screen and (max-width: 768px) {
+    /* Bannière */
+    .banniere {
+      height: 200px;
+    }
+  
+    /* Zone de texte */
+    .ZoneText {
+      width: 90%;
+      height: 150px;
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Bannière */
+    .banniere {
+      height: 150px;
+    }
+  
+    /* Zone de texte */
+    .ZoneText {
+      width: 90%;
+      height: 100px;
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+  
+    /* Paragraphe */
+    p {
+      font-size: 14px;
+    }
+  }
+  
