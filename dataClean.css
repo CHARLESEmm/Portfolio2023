@@ -112,9 +112,8 @@
 .technologie
 {
     width: 90%;
-    margin-top: 13%;
+    margin-top: 14%;
     height: 50px;
-    
     display: flex;
     justify-content: center;
 
@@ -202,40 +201,187 @@
 
 
 
+/* Media Queries */
 
-  /* Rendre la page responsive */
-  @media only screen and (max-width: 768px) {
-    /* Bannière */
-    .banniere {
-      height: 200px;
-    }
+@media screen and (max-width: 576px) {
+ .banniere
+ {
+  max-width: 576px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .home
+ {
+   font-size: 8px;
+   margin-top: 5%;
+ }
+ .banniere img
+ {
+   width: 100px;
+   height: 100px;
+ }
+ .ZoneText
+ {
+   width: 500px;
+   margin-top: 5%;
+ 
+
+ }
+
+ .ZoneText p
+ {
+   font-size: 8px;
+ }
+
+ .imageTable
+ {
+   width: 100%;
+   height: 100px;
+   margin-bottom: 5%;
+ }
+
+ .container {
+  width: 90%;
+  height: 80px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3%;
+}
+
+.col {
+  flex-basis: 20%;
+  margin: 0 1%;
+  box-sizing: border-box;
+  text-align: center;
   
-    /* Zone de texte */
-    .ZoneText {
-      width: 90%;
-      height: 150px;
-      margin-left: 5%;
-      margin-top: 2%;
-    }
+  
+}
+
+.col img {
+  max-width: 100%;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ZoneTexte
+  {
+    width: 500px;
+    height: 100px;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    
+   
   }
-  
-  @media only screen and (max-width: 480px) {
-    /* Bannière */
-    .banniere {
-      height: 150px;
-    }
-  
-    /* Zone de texte */
-    .ZoneText {
-      width: 90%;
-      height: 100px;
-      margin-left: 5%;
-      margin-top: 2%;
-    }
-  
-    /* Paragraphe */
-    p {
-      font-size: 14px;
-    }
+
+  .ZoneTexte p
+  {
+    font-size: 7px
   }
+
+  h5
+  {
+    font-size: 5px;
+  }
+
+  .technologie
+{
+    width: 500px;
+    margin-top: 5%;
+    height: 20px;
+    display: flex;
+    justify-content: start;
+
+   
+    
+}
+
+.contenairTechnologie
+{
+    width: 500px;
+    height: 50px;
+    margin-left: 5%;
+    display: flex;
+   
+    
+
+}
+
+.rowtechnologie
+{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    justify-content: space-around;
+}
+
+.coltechnologie
+{
+    width: 30px;
+    height: 35px;
+    
+}
+
+.coltechnologie img
+{
+    width: 50%;
+    height: 50%;
+
+}
+
+#sql img
+{
+  width: 50px;
+}
+
+.autreProjets
+{
+  width: 100%;
+  height: 100px;
+  margin-top: 10%;
+}
+
+#autreProjets img
+{
+  width: 50px;
+  height: 70px;
+
+}
+
+footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  font-size: 7px;
+  padding: px 0;
+  margin-top: 5%;
+}
+
+.containerfooter {
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 576px;
+  margin: 0 auto;
+}
+p 
+{
+  font-size: 7px;
+}
+.containerfooter p 
+{
+ margin: 2%;
+}
+
+.version {
+  text-align: right;
+}
   
+}
