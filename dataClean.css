@@ -1,158 +1,158 @@
 /* Remettre les marges et les paddings par défaut */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Bannière */
+
+.home 
+{
+  margin-left: 5%;
+  margin-top: 1%;
   
-  /* Bannière */
+}
 
-  .home 
-  {
-    margin-left: 5%;
-    margin-top: 1%;
-    
-  }
+.home a 
+{
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
 
-  .home a 
-  {
-    text-decoration: none;
-    border-bottom: 1px solid white;
-  }
+.home a:hover
+{
+  transition: 2s ease;
+  border-bottom: 1px solid rgba(11, 11, 11, 0.352);
+}
+.banniere {
+  width: 100%;
+  height: 350px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.137);
+  display: flex;
+  justify-content: center;
+}
 
-  .home a:hover
-  {
-    transition: 2s ease;
-    border-bottom: 1px solid rgba(11, 11, 11, 0.352);
-  }
-  .banniere {
-    width: 100%;
-    height: 350px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.137);
-    display: flex;
-    justify-content: center;
-  }
+
+/* Zone de texte */
+.ZoneText {
+  width: 90%;
+  height: 200px;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 10%;
   
+}
+
+a
+{
+  text-decoration: none;
+}
+/* Paragraphe */
+p {
+  margin-top: 2%;
+}
+
+.ZoneScreen
+{
+  width: 100%;
+  height: 200px;
+
+}
+
+.ZoneTexte
+{
+  width: 90%;
+  height: 100px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 1%;
   
-  /* Zone de texte */
-  .ZoneText {
-    width: 90%;
-    height: 200px;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 10%;
-    
-  }
+ 
+}
+
+.imageTable {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex-basis: 20%;
+  margin: 0 1%;
+  box-sizing: border-box;
+  text-align: center;
   
-  a
-  {
-    text-decoration: none;
-  }
-  /* Paragraphe */
-  p {
-    margin-top: 2%;
-  }
+}
 
-  .ZoneScreen
-  {
-    width: 100%;
-    height: 200px;
-
-  }
-
-  .ZoneTexte
-  {
-    width: 90%;
-    height: 100px;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-bottom: 1%;
-    
-   
-  }
-
-  .imageTable {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .container {
-    width: 90%;
-  }
-
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .col {
-    flex-basis: 20%;
-    margin: 0 1%;
-    box-sizing: border-box;
-    text-align: center;
-    
-  }
-
-  .col img {
-    max-width: 100%;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
-  }
+.col img {
+  max-width: 100%;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
 
 .titletechnologie
 {
-  margin-left: 5%;
-  margin-bottom: 1%;
+margin-left: 5%;
+margin-bottom: 1%;
 }
 
 .technologie
 {
-    width: 90%;
-    margin-top: 14%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
+  width: 90%;
+  margin-top: 14%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
 
-   
-    
+ 
+  
 }
 
 .contenairTechnologie
 {
-    width: 500px;
-    height: 50px;
-    margin-left: 5%;
-    display: flex;
-   
-    
+  width: 500px;
+  height: 50px;
+  margin-left: 5%;
+  display: flex;
+ 
+  
 
 }
 
 .rowtechnologie
 {
-    width: 500px;
-    height: 50px;
-    
-    display: flex;
-    justify-content: space-between;
+  width: 500px;
+  height: 50px;
+  
+  display: flex;
+  justify-content: space-between;
 }
 
 .coltechnologie
 {
-    width: 30px;
-    height: 35px;
-    
+  width: 30px;
+  height: 35px;
+  
 }
 
 .coltechnologie img
 {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 
 }
 
@@ -160,53 +160,53 @@
 
 #sql img
 {
-  width: 105px;
+width: 105px;
 }
 
-  .autreProjets
-  {
-    width: 100%;
-    height: 120px;
-    margin-top: 10%;
-  }
+.autreProjets
+{
+  width: 100%;
+  height: 120px;
+  margin-top: 10%;
+}
 
-  #autreProjets img
-  {
-    width: 100px;
-    height: 100px;
+#autreProjets img
+{
+  width: 100px;
+  height: 100px;
 
-  }
+}
 
-  #autreProjets
-  {
-    border: 1px solid rgba(104, 102, 102, 0.137);
-    cursor: pointer;
-  }
+#autreProjets
+{
+  border: 1px solid rgba(104, 102, 102, 0.137);
+  cursor: pointer;
+}
 
-  #autreProjets img:hover
-  {
-    transition: 1s;
-    width: 110px;
-    height: 110px;
-  }
+#autreProjets img:hover
+{
+  transition: 1s;
+  width: 110px;
+  height: 110px;
+}
 
-  footer {
-    background-color: #333;
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 0;
-    margin-top: 5%;
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+  margin-top: 5%;
 }
 
 .containerfooter {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .version {
-    text-align: right;
+  text-align: right;
 }
 
 
@@ -219,43 +219,62 @@
 
 /* Media Queries */
 
-@media screen and (max-width: 576px) {
- .banniere
- {
-  max-width: 576px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
- }
-
- .home
- {
-   font-size: 8px;
-   margin-top: 5%;
- }
- .banniere img
- {
-   width: 100px;
-   height: 100px;
- }
- .ZoneText
- {
-   width: 500px;
-   margin-top: 5%;
+@media only screen and (max-width: 400px) {
  
+  .banniere {
+    
+    height: 100px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.137);
+    display: flex;
+    justify-content: center;
+  }
 
- }
+  .banniere img
+  {
+    width: 100px;
+    height: 100px;
+   
+  }
+  
+  .ZoneText {
+    width: 90%;
+    height: 160px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    
+  }
+  
+  
+a
+{
+  text-decoration: none;
+  font-size: 6px;
+}
+/* Paragraphe */
+p {
+  margin-top: 2%;
+}
 
- .ZoneText p
- {
-   font-size: 8px;
- }
+.ZoneScreen
+{
+  width: 100%;
+  height: auto;
 
- .imageTable
+}
+
+
+
+p 
+{
+  font-size: 6px;
+}
+
+.imageTable
  {
    width: 100%;
-   height: 100px;
-   margin-bottom: 5%;
+   height: 40px;
+   margin-bottom: 1%;
  }
 
  .container {
@@ -280,39 +299,43 @@
 }
 
 .col img {
-  max-width: 100%;
-  height: 100px;
+  max-width: 80%;
+  height: 80%;
   display: block;
   margin: 0 auto;
 }
 
 .ZoneTexte
   {
-    width: 500px;
-    height: 100px;
+    width: 90%;
+    height: auto;
     margin-left: 5%;
-    margin-bottom: 1%;
+    margin-bottom: 7%;
+    
+    
     
    
   }
 
   .ZoneTexte p
   {
-    font-size: 7px
+    font-size: 6px
   }
 
   h5
   {
-    font-size: 5px;
+    font-size: 4px;
   }
 
   .technologie
 {
-    width: 500px;
+    width: 80%;
     margin-top: 5%;
     height: 20px;
     display: flex;
     justify-content: start;
+
+    margin-left: 5%;
 
    
     
@@ -320,8 +343,8 @@
 
 .contenairTechnologie
 {
-    width: 500px;
-    height: 50px;
+    width: 80%;
+    height: 80%px;
     margin-left: 5%;
     display: flex;
    
@@ -331,7 +354,7 @@
 
 .rowtechnologie
 {
-    width: 500px;
+    width: 300px;
     height: 50px;
     display: flex;
     justify-content: start;
@@ -341,15 +364,15 @@
 
 .coltechnologie
 {
-    width: 30px;
-    height: 35px;
+    width: 20px;
+    height: 25px;
     
 }
 
 .coltechnologie img
 {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 45%;
     
 
 }
@@ -372,75 +395,107 @@
   height: 50px;
 
 }
-
-footer {
-  width: 100%;
-  background-color: #333;
-  color: #fff;
-  font-size: 7px;
-  padding: px 0;
-  margin-top: 5%;
-}
-
-.containerfooter {
-  margin-left: 5%;
+ 
+  
+  footer {
+      background-color: #333;
+      color: #fff;
+      font-size: 14px;
+      padding: 10px 0;
+  }
+  
+  .containerfooter {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin: 2%;
+  }
+  
+  .version {
+      text-align: right;
+  }
+  
+  .containerfooter p {
+      font-size: 7px;
+  }
+.nav
+{
+  width: 90%;
+  height: 20px;
+  justify-content: end;
   display: flex;
-  justify-content: space-between;
-  max-width: 576px;
-  margin: 0 auto;
+  margin-right: 5%;
+  margin-top: 5%;
+  
+ 
 }
-p 
+
+}
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px)
 {
-  font-size: 7px;
-}
-.containerfooter p 
-{
- margin: 2%;
-}
-
-.version {
-  text-align: right;
-}
+ 
+ 
+    .banniere {
+      
+      height: 100px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.137);
+      display: flex;
+      justify-content: center;
+    }
   
-}
-
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .banniere {
-    max-width: 768px;
-    min-width: 576px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
+    .banniere img
+    {
+      width: 100px;
+      height: 100px;
+     
+    }
+    
+    .ZoneText {
+      width: 90%;
+      height: 190px;
+      margin-left: 5%;
+      margin-top: 2%;
+      margin-bottom: 10%;
+      
+    }
+    
+    
+  a
+  {
+    text-decoration: none;
+    font-size: 9px;
+  }
+  /* Paragraphe */
+  p {
+    margin-top: 2%;
   }
   
-  .home {
-    font-size: 8px;
-    margin-top: 5%;
+  .ZoneScreen
+  {
+    width: 100%;
+    height: auto;
+  
   }
   
-  .banniere img {
-    width: 100px;
-    height: 100px;
-  }
   
-  .ZoneText {
-    max-width: 700px;
-    min-width: 500px;
-    margin-top: 5%;
-  }
   
-  .ZoneText p {
+  p 
+  {
     font-size: 10px;
   }
   
-  .imageTable {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 7%;
-  }
+  .imageTable
+   {
+     width: 100%;
+     height: auto;
+     margin-bottom: 1%;
+   }
   
-  .container {
+   .container {
     width: 90%;
     height: 80px;
   }
@@ -457,118 +512,143 @@ p
     margin: 0 1%;
     box-sizing: border-box;
     text-align: center;
+    
+    
   }
   
   .col img {
-    max-width: 100%;
-    height: 100px;
+    max-width: 90%;
+    height: 90%;
     display: block;
     margin: 0 auto;
   }
   
-  .ZoneTexte {
-    max-width: 700px;
-    min-width: 500px;
-    height: 100px;
-    margin-left: 5%;
-    margin-bottom: 1%;
-    
+  .ZoneTexte
+    {
+      width: 90%;
+      height: auto;
+      margin-left: 5%;
+      margin-bottom: 7%;
+      margin-top: 10%;
+      
+      
+    }
+  
+    .ZoneTexte p
+    {
+      font-size: 10px
+    }
+  
+    h5
+    {
+      font-size: 8px;
+    }
+  
+    .technologie
+  {
+      width: 90%;
+      margin-top: 5%;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      border: 1px solid red;
+      margin-left: 5%;
+
+      
   }
   
-  .ZoneTexte p {
-    font-size: 10px;
+  .contenairTechnologie
+  {
+      width: 500px;
+      height: 50px;
+      margin-left: 5%;
+      display: flex;
+     
+      
+  
   }
   
-  h5 {
-    font-size: 8px;
+  .rowtechnologie
+  {
+      width: 300px;
+      height: 50px;
+      display: flex;
+      justify-content: start;
+      justify-content: space-around;
+      
   }
   
-  .technologie {
-    max-width: 768px;
-    min-width: 500px;
-    margin-top: 9%;
-    height: 20px;
-    display: flex;
-    justify-content: center;
+  .coltechnologie
+  {
+      width: 25px;
+      height: 38px;
+      
   }
   
-  .contenairTechnologie {
-    max-width: 768;
-    min-width: 500px;
-    height: 50px;
-    margin-left: 5%;
-    display: flex;
+  .coltechnologie img
+  {
+      width: 50%;
+      height: 50%;
+      
+  
   }
   
-  .rowtechnologie {
-    max-width: 768;
-    min-width: 500px;
-    height: 50px;
-    display: flex;
-    justify-content: start;
-    justify-content: space-around;
-   
+  #sql img
+  {
+    width: 50px;
   }
   
-  .coltechnologie {
-    width: 30px;
-    height: 35px;
-  }
-  
-  .coltechnologie img {
-    width: 120%;
-    height: 120%;
-  }
-  
-  #sql img {
-    width: 80px;
-    height: 30.5px;
-   
-   
-  }
-  
-  .autreProjets {
-    max-width: 768px;
-    min-width: 576px;
+  .autreProjets
+  {
+    width: 100%;
     height: 100px;
     margin-top: 10%;
-    margin-bottom: 10%;
-    
   }
   
-  #autreProjets img {
-    width: 100px;
-    height: 100px;
-   
+  #autreProjets img
+  {
+    width: 50px;
+    height: 50px;
+  
   }
+
+
   
   footer {
-    max-width: 768px;
-    min-width: 576px;
-    background-color: #333;
-    color: #fff;
-    font-size: 7px;
-    padding: px 0;
-    margin-top: 5%;
+      width: 960px;
+      background-color: #333;
+      color: #fff;
+      font-size: 14px;
+      padding: 10px 0;
   }
   
   .containerfooter {
-    margin-left: 2%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 576px;
-    margin: 0 auto;
-  }
-  
-  p {
-    font-size: 8px;
-  }
-  
-  .containerfooter p {
-    margin: 2%;
+      display: flex;
+      justify-content: space-between;
+      max-width: 960px;
+      margin: 0 auto;
+      margin-left: 5%;
+      margin-right: 5%;
+
   }
   
   .version {
-    text-align: right;
+      text-align: right;
   }
+  
+  .containerfooter p {
+      font-size: 7px;
+  }
+.nav
+{
+  width: 90%;
+  height: 20px;
+  justify-content: end;
+  display: flex;
+  margin-right: 5%;
+  margin-top: 5%;
+  
+ 
+}
+
 }
