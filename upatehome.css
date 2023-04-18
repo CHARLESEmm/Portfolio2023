@@ -1,0 +1,342 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenair
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(24, 109, 184);
+
+}
+
+
+.principalContanair
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    
+}
+
+
+
+.coteGauche
+{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(237, 228, 228);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.cadreImage
+{
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 25%;
+
+}
+
+.logo
+{
+    width: 90%;
+    height: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.logo p 
+{
+    color: white;
+    margin-left: 1px;
+}
+
+
+.coteDroit
+{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(133, 205, 250);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logodroit
+{
+    width: 90%;
+    height: 5%;
+    margin-bottom: 7%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: end;
+    gap: 5%;
+
+   
+   
+}
+
+.logodroit a 
+{
+    color: white;
+}
+
+#coteGauche1
+{
+    width: 50%;
+    height: 100vh;
+    background-color:#E6E6FA;
+  
+}
+
+#coteDroit2
+    {
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            background-color: #FF8C42;
+    }
+
+.projet
+{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.projet img
+{
+   width: 52%;
+   height: 96%;
+   cursor: pointer;
+   
+}
+
+.projet img:hover
+{
+    transition: 1s;
+    width: 54%;
+    height: 99%;
+    
+}
+
+.details
+{
+    cursor: pointer;
+   
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background: radial-gradient(circle at 50% 50%, #007aff, #00bfff);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* line-height: 100px; */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  h1:hover
+  {
+   border: 1px solid white;
+  }
+
+  .nom
+  {
+      opacity: 0;
+      
+  }
+
+  .nom
+  {
+    font-size: 15px;
+    color: rgb(70, 69, 69);
+  }
+
+  a
+  {
+    text-decoration: none;
+  }
+
+  .logo .details:hover +.nom
+{
+    opacity: 1;
+    transition: 1s;
+    color: rgb(27, 26, 26);
+
+}
+
+
+
+@media screen and (max-width: 769px) {
+
+        .principalContanair
+        {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .coteGauche
+        {
+            width: 100%;
+            height: 50%;
+            background-color: aliceblue;
+            display: flex;
+            align-items: center;
+        }
+
+        .coteDroit
+        {
+            width: 100%;
+            height: 50%;
+            background-color: rgb(133, 205, 250);
+            display: flex;
+            align-items: center;
+        }
+
+        #coteGauche1
+        {
+            width: 100%;
+            height: 50%;
+            background-color:#E6E6FA;
+            display: flex;
+            align-items: center;
+
+        }
+
+        #coteDroit2
+        {
+            width: 100%;
+            height: 50%;
+            background-color: #FF8C42;
+            display: flex;
+            align-items: center;
+        }
+
+        .cadreImage
+        {
+            width: 90%;
+            height: 50%;
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            margin-bottom: 25%;
+
+        }
+
+        .logo
+        {
+            width: 90%;
+            height: 10%;
+            
+            margin-top: 2%;
+            margin-bottom: 5%;
+            display: flex;
+            align-items: center;
+        }
+
+        .projet
+        {
+            width: 90%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .projet img
+        {
+           width: 50%;
+           height: 85%;
+           
+        }
+
+        .logodroit
+        {
+            width: 90%;
+            height: 5%;
+            
+            margin-bottom: 7%;
+            margin-top: 7%;
+            display: flex;
+            justify-content: end;
+            gap: 5%;
+        
+        }
+
+        .logodroit a 
+        {
+            font-size: 10px
+        }
+
+       
+
+        .details
+        {
+            cursor: pointer;
+           
+        }
+        
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            background: radial-gradient(circle at 50% 50%, #007aff, #00bfff);
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            /* line-height: 100px; */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+          h1:hover
+          {
+           border: 1px solid white;
+          }
+        
+          .logo .details:hover +.nom
+        {
+            opacity: 1;
+            transition: 1s;
+        
+        }
+        
+
+
+    
+}
