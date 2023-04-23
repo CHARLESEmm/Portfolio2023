@@ -40,7 +40,7 @@
     height: 200px;
     margin-left: 5%;
     margin-top: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 12%;
     
   }
   
@@ -265,6 +265,26 @@
     text-align: right;
   }
 
+  .mon-bouton {
+    display: inline-block;
+    background-color: #f5a623;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .mon-bouton:hover {
+    background-color: #f7b647;
+    color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+
   
 
   @media screen and (max-width: 769px)
@@ -319,8 +339,13 @@
         justify-content: center;
         margin-top: 1%;
         font-size: 5%;
+        color: #333;
       }
       
+      h5 
+      {
+        color: #333;
+      }
 
     
 
