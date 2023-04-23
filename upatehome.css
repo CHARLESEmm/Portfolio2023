@@ -125,7 +125,6 @@
 .projet img
 {
    width: 52%;
-   height: 96%;
    cursor: pointer;
    
 }
@@ -282,7 +281,7 @@ h1 {
         .projet img
         {
            width: 50%;
-           height: 85%;
+          
            
         }
 
