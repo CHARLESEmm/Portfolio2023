@@ -39,7 +39,7 @@
     width: 90%;
     height: 200px;
     margin-left: 5%;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 20%;
     
   }
@@ -71,10 +71,15 @@
 
   /*zone screen de la page dataclean*/
 
-  #maltraitances
+  #maltraitances 
   {
     margin-top: 10%;
+    
   }
+
+ 
+
+
 
   .carre
   {
@@ -82,8 +87,7 @@
     height: 80px;
     display: flex;
     justify-content: center;
-    
-    
+ 
     
   }
 
@@ -212,6 +216,7 @@
     align-items: center;
     margin-bottom: 5%;
     margin-top: 1%;
+
     
   
 
@@ -332,6 +337,7 @@
         display: flex;
         justify-content: center;
         margin-bottom: 5%;
+        
     
       
       }
@@ -415,6 +421,7 @@
         font-size: 2%;
         
       }
+      
       .mon-bouton {
         display: none;
       }
