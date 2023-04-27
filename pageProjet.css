@@ -74,8 +74,10 @@
   #maltraitances 
   {
     margin-top: 10%;
-    
+    color: #ededf081;
   }
+
+
 
  
 
@@ -346,7 +348,6 @@
       {
         width: 20%;
         height: 80px;
-      
         display: flex;
         justify-content: center;
         
@@ -361,13 +362,14 @@
         display: flex;
         justify-content: center;
         margin-top: 1%;
-        font-size: 5%;
+        font-size: 5px;
         color: #333;
       }
       
       h5 
       {
         color: #333;
+        font-size: 5px;
       }
 
     
@@ -430,6 +432,13 @@
       {
         display: none;
       }
+
+      #maltraitanceAutresProjets
+      {
+        margin-top: 15%;
+        
+      }
+
       
     
       

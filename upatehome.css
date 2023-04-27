@@ -94,6 +94,18 @@
 .logodroit a 
 {
     color: white;
+    width: auto;
+    padding: 1%;
+    border: 1px solid rgba(255, 255, 255, 0.542);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.logodroit a:hover
+{
+    background-color: white;
+    color: black;
+    break-before: auto;
 }
 
 #coteGauche1
@@ -291,8 +303,8 @@ h1 {
         .logodroit
         {
             width: 90%;
-            height: 5%;
-            
+            height: 15%;
+            align-items: center;
             margin-bottom: 7%;
             margin-top: 7%;
             display: flex;
@@ -304,7 +316,7 @@ h1 {
 
         .logodroit a 
         {
-            font-size: 10px
+            font-size: 5px
         }
 
        
@@ -359,8 +371,9 @@ h1 {
         #menuhover a
         {
             visibility: visible;
-            color: rgb(35, 35, 35);
+            color: rgb(91, 89, 89);
             font-size: 10px;
+            
         }
 
         #ResponsiveCotedroit
@@ -368,8 +381,22 @@ h1 {
             display: none;
         }
         
+        .logodroit a 
+        {
+            color: rgb(10, 10, 10);
+            width: auto;
+            padding: 1%;
+            border: 1px solid rgba(19, 19, 19, 0.411);
+            border-radius: 5px;
+            font-size: 5%;
+        }
         
-
+        .logodroit a:hover
+        {
+            background-color: rgba(39, 37, 37, 0.637);
+            color: rgb(250, 249, 249);
+            break-before: auto;
+        }
 
     
 }
