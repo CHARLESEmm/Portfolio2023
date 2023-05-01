@@ -64,6 +64,8 @@
     margin-top: 5%;
     display: flex;
     justify-content: center;
+    font-size: medium;
+    color: #4b4a4a;
 
 }
 
@@ -131,6 +133,7 @@ footer {
     font-size: 14px;
     padding: 10px 0;
     height: 100px;
+    
 }
 
 .containerfooter {
@@ -157,8 +160,65 @@ footer {
 }
 
 
+.cadreLanguages
+{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    
+    gap: 5%;
+    margin-top: 2%;
+}
+
+.imageLanguages
+{
+    width: 4%;
+    margin-left: 2%;
+   
+    display: flex;
+    margin-left: 5%;
+    cursor: pointer;
+    padding: 1%;
+    background-color: #f2f5f7;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    
+}
+
+.imageLanguages:hover
+{
+    transform: translateY(-2px );
+    transition: 1s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+small
+{
+    margin-left: 40%;
+}
 
 
+.imageLanguages img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.grilleDeval
+{
+    font-size: 8px;
+    margin-top: 1%;
+}
+
+.cadreVeille :hover
+{
+    transform: translateY(-2px );
+    transition: 1s;
+    box-shadow: 0 8px 16px rgba(165, 163, 163, 0.3);
+}
 
 
 
@@ -218,12 +278,14 @@ footer {
         margin-top: 5%;
         display: flex;
         justify-content: center;
+        font-style: normal;
+        
     
     }
     
     .titreVeille h3
     {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .reseauxicon
@@ -233,6 +295,48 @@ footer {
 
     }
     
+    footer {
+        background-color: #333;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px 0;
+        height: 100px;
+        margin-top: 25%;
+    }
+
+    .cadreLanguages
+{
+visibility: hidden;
+}
+
+.imageLanguages
+{
+    width: 4%;
+    margin-left: 2%;
+   
+    display: flex;
+    margin-left: 5%;
+  
+
+    
+}
+
+.imageLanguages img
+{
+    max-width: 50%;
+    height: auto;
+}
+
+.button
+{
+    font-size: 4%;
+}
+
+.grilleDeval
+{
+    font-size: 8px;
+ 
+}
 
 }
 

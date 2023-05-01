@@ -317,6 +317,7 @@ h1 {
         .logodroit a 
         {
             font-size: 5px
+            
         }
 
        
@@ -371,7 +372,8 @@ h1 {
         #menuhover a
         {
             visibility: visible;
-            color: rgb(91, 89, 89);
+            color: rgb(255, 255, 255);
+            background-color: rgb(32, 33, 34);
             font-size: 10px;
             
         }
@@ -383,7 +385,7 @@ h1 {
         
         .logodroit a 
         {
-            color: rgb(10, 10, 10);
+            color: rgb(255, 255, 255);
             width: auto;
             padding: 1%;
             border: 1px solid rgba(19, 19, 19, 0.411);
